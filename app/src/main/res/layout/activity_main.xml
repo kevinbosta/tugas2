@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/kevin"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="@color/purple_200"
+        android:text="PENJUMLAHAN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/kevin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kevin"
+        android:layout_marginTop="2dp"
+        android:hint="INPUT NILAI1"
+        android:inputType="text"
+        android:padding="30dp" />
+
+    <TextView
+        android:id="@+id/View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kevin"
+        android:layout_marginTop="-1dp"
+        android:text="+"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/kevin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/View"
+        android:hint="INPUT NILAI2"
+        android:inputType="text"
+        android:padding="30dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HASIL"
+        android:layout_below="@id/kevin2"/>
+
+
+
+
+</RelativeLayout>
